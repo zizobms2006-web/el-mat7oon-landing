@@ -24,8 +24,8 @@
   "logo": "assets/logo.jpg",
   "founder": { "@type": "Person", "name": "Dr. Mohamed Hussein" },
   "description": "وكالة تسويق متكاملة تقدم استراتيجية، محتوى، إعلانات، CRM وأتمتة تسويقية لأصحاب الأعمال في مصر والخليج.",
-  "email": "zizobmsai@gmail.com",
-  "telephone": "+201021863112",
+  "email": "zizobms2006@gmail.com",
+  "telephone": "+201550069683",
   "sameAs": []
 }
 </script>
@@ -42,7 +42,6 @@
       <span class="brand-name" data-i18n="nav.brand">المسوق المطحون</span>
     </a>
     <nav class="nav-links">
-      <a href="#about" data-i18n="nav.about">مين احنا</a>
       <a href="#services" data-i18n="nav.services">خدماتنا</a>
       <a href="#work" data-i18n="nav.work">آلية العمل</a>
       <a href="#proof" data-i18n="nav.proof">نتائج حقيقية</a>
@@ -50,7 +49,7 @@
     </nav>
     <div class="nav-actions">
       <button class="lang-switch" id="langSwitch" type="button">EN</button>
-      <a class="btn btn-primary btn-sm" id="navCta" href="#contact" data-i18n="nav.cta">ابدأ الاستشارة</a>
+      <a class="btn btn-primary btn-sm" id="navCta" href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" data-i18n="nav.cta">اطلب مكالمة</a>
     </div>
     <button class="nav-toggle" id="navToggle" aria-label="menu"><span></span><span></span><span></span></button>
   </div>
@@ -58,7 +57,7 @@
 
 <main id="top">
 
-  <!-- HERO -->
+  <!-- HERO (leads with founder photo + intro) -->
   <section class="hero">
     <div class="hero-chart" aria-hidden="true">
       <svg viewBox="0 0 1200 500" preserveAspectRatio="none">
@@ -76,12 +75,28 @@
     </div>
 
     <div class="hero-inner">
-      <p class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">26 عام خبرة ميدانية · مصر والخليج</span></p>
-      <h1 data-i18n="hero.title">إحنا مش هنعملك بوستات.<br>إحنا هنبني لك منظومة نمو.</h1>
-      <p class="hero-sub" data-i18n="hero.sub">استراتيجية، محتوى، إعلانات، CRM وأتمتة تحت سقف واحد — عشان أرباحك تكبر، مش متابعينك بس.</p>
-      <div class="hero-cta">
-        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">ابدأ مشروعك الآن</a>
-        <a href="#services" class="btn btn-ghost" data-i18n="hero.cta2">تعرف على خدماتنا</a>
+      <div class="hero-grid">
+        <div class="hero-photo">
+          <img src="assets/founder.png" alt="Dr. Mohamed Hussein">
+          <div class="photo-tag">
+            <img src="assets/logo.jpg" alt="">
+            <span data-i18n="about.tagName">د. محمد حسين</span>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">26 عام خبرة ميدانية · مصر والخليج</span></p>
+          <h1 data-i18n="hero.title">إحنا مش هنعملك بوستات.<br>إحنا هنبني لك منظومة نمو.</h1>
+          <p class="hero-sub" data-i18n="hero.sub">د. محمد حسين، أكتر من 26 سنة خبرة، بنى المسوق المطحون كوكالة متكاملة — استراتيجيين، مصممين، كتّاب محتوى، مصورين، ومتخصصي CRM وأتمتة — عشان مشروعك ياخد فريق كامل يشتغل على نموه، مش بوستات عشوائية.</p>
+          <ul class="hero-facts">
+            <li><i class="fa-solid fa-people-group"></i><span data-i18n="about.fact1">فريق متكامل خلف كل مشروع</span></li>
+            <li><i class="fa-solid fa-chart-line"></i><span data-i18n="about.fact2">قرارات مبنية على بيانات، مش تخمين</span></li>
+            <li><i class="fa-solid fa-handshake"></i><span data-i18n="about.fact3">شراكة طويلة الأمد، مش خدمة وخلاص</span></li>
+          </ul>
+          <div class="hero-cta">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="hero.cta1">اطلب مكالمة</a>
+            <a href="#services" class="btn btn-ghost" data-i18n="hero.cta2">تعرف على خدماتنا</a>
+          </div>
+        </div>
       </div>
 
       <div class="hero-stats">
@@ -115,29 +130,6 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="about-grid">
-      <div class="about-photo">
-        <img src="assets/founder.png" alt="Dr. Mohamed Hussein">
-        <div class="photo-tag">
-          <img src="assets/logo.jpg" alt="">
-          <span data-i18n="about.tagName">د. محمد حسين</span>
-        </div>
-      </div>
-      <div class="about-copy">
-        <p class="kicker" data-i18n="about.kicker">مين احنا</p>
-        <h2 data-i18n="about.title">التسويق عندنا مش صوت عالي، ده نظام بيشتغل.</h2>
-        <p data-i18n="about.body">د. محمد حسين، أكتر من 26 سنة خبرة في التسويق والمبيعات والتحول الرقمي. بنى المسوق المطحون كوكالة متكاملة — استراتيجيين، مصممين، كتّاب محتوى، مصورين، مسؤولي إعلانات، ومتخصصي CRM وأتمتة — عشان كل عميل ياخد فريق كامل، مش فريلانسر شغال لوحده.</p>
-        <ul class="about-facts">
-          <li><i class="fa-solid fa-people-group"></i><span data-i18n="about.fact1">فريق متكامل خلف كل مشروع</span></li>
-          <li><i class="fa-solid fa-chart-line"></i><span data-i18n="about.fact2">قرارات مبنية على بيانات، مش تخمين</span></li>
-          <li><i class="fa-solid fa-handshake"></i><span data-i18n="about.fact3">شراكة طويلة الأمد، مش خدمة وخلاص</span></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
   <!-- SERVICES -->
   <section class="services" id="services">
     <div class="section-head">
@@ -145,6 +137,12 @@
       <h2 data-i18n="services.title">حلول دقيقة للعلامات التجارية العصرية</h2>
     </div>
     <div class="services-grid" id="servicesGrid"></div>
+    <div class="section-cta">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
+        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
+        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+      </a>
+    </div>
   </section>
 
   <!-- WHY + HOW WE WORK -->
@@ -160,11 +158,23 @@
       <ol class="timeline" id="timelineList"></ol>
     </div>
   </section>
+  <div class="section-cta">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
+      <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
+      <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+    </a>
+  </div>
 
   <!-- PARTNERS -->
   <section class="partners">
     <p class="section-eyebrow" data-i18n="partners.eyebrow">شركاء النجاح</p>
     <div class="partners-row" id="partnersRow"></div>
+    <div class="section-cta">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
+        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
+        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+      </a>
+    </div>
   </section>
 
   <!-- PROOF / CASE STUDIES -->
@@ -174,6 +184,12 @@
       <h2 data-i18n="proof.title">أرقام حصلت فعلاً، مش وعود</h2>
     </div>
     <div class="proof-grid" id="proofGrid"></div>
+    <div class="section-cta">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
+        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
+        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+      </a>
+    </div>
   </section>
 
   <!-- FAQ -->
@@ -183,23 +199,29 @@
       <h2 data-i18n="faq.title">أسئلة بتتكرر معانا كتير</h2>
     </div>
     <div class="faq-list" id="faqList"></div>
+    <div class="section-cta">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
+        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
+        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+      </a>
+    </div>
   </section>
 
   <!-- FINAL CTA / CONTACT -->
   <section class="final-cta" id="contact">
     <div class="cta-card">
-      <p class="kicker" data-i18n="cta.kicker">لنبدأ العمل معًا</p>
-      <h2 data-i18n="cta.title">جاهز تاخد علامتك التجارية للمستوى اللي بعده؟</h2>
-      <p data-i18n="cta.sub">احجز استشارة مجانية، وهنرجعلك بخطة واضحة مش كلام عام.</p>
+      <p class="kicker" data-i18n="cta.kicker">لنبدأ نتعاون</p>
+      <h2 data-i18n="cta.title">جاهز تبدأ تعاون حقيقي يكبّر بيزنسك؟</h2>
+      <p data-i18n="cta.sub">احجز مكالمة، وهنرجعلك بخطة واضحة مش كلام عام.</p>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
-        <span data-i18n="cta.btn">ابدأ طلب الاستشارة المجانية</span>
+        <span data-i18n="cta.btn">اطلب مكالمة</span>
         <i class="fa-solid fa-arrow-up-left"></i>
       </a>
       <p class="cta-note" data-i18n="cta.note">هيستغرق تعبئة النموذج أقل من 3 دقائق، وبعد مراجعة طلبك هيتواصل معاك أحد أعضاء فريقنا.</p>
 
       <div class="contact-direct">
-        <a href="mailto:zizobmsai@gmail.com"><i class="fa-solid fa-envelope"></i> zizobmsai@gmail.com</a>
-        <a href="tel:+201021863112"><i class="fa-solid fa-phone"></i> 01021863112</a>
+        <a href="mailto:zizobms2006@gmail.com"><i class="fa-solid fa-envelope"></i> zizobms2006@gmail.com</a>
+        <a href="tel:+201550069683"><i class="fa-solid fa-phone"></i> 01550069683</a>
       </div>
     </div>
   </section>
@@ -209,16 +231,21 @@
 <footer class="footer">
   <img src="assets/logo.jpg" alt="" class="footer-mark">
   <p data-i18n="footer.text">© 2026 المسوق المطحون. جميع الحقوق محفوظة.</p>
+  <div class="footer-social">
+    <a href="https://www.facebook.com/profile.php?id=61576923941440" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/elmosaweq_elmat7oun/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@elmosauq_elmat7oun" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+  </div>
 </footer>
 
 <!-- Floating WhatsApp -->
-<a href="https://wa.me/201021863112" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
+<a href="https://wa.me/201550069683" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
   <i class="fa-brands fa-whatsapp"></i>
 </a>
 
 <!-- Sticky mobile CTA -->
 <div class="sticky-mobile-cta">
-  <a href="#contact" data-i18n="sticky.cta">ابدأ استشارتك المجانية</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" data-i18n="sticky.cta">اطلب مكالمة</a>
 </div>
 
 <!-- Back to top -->
