@@ -252,5 +252,19 @@
 <button class="back-top" id="backTop" aria-label="back to top"><i class="fa-solid fa-arrow-up"></i></button>
 
 <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+  <script type="module">
+    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+    createChat({
+      webhookUrl: 'https://vmi3330209.contaboserver.net/webhook/3d57087d-9ab2-47fe-a492-d50ced226b97/chat',
+      mode: 'window',
+      showWelcomeScreen: false,
+      defaultLanguage: 'en',
+      initialMessages: [
+        'أهلاً بيك! عامل إيه؟ 😊'
+      ],
+    });
+  </script>
 </body>
 </html>
