@@ -3,17 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===== META PIXEL ADDED HERE ===== -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '3561579477337173');  // <<< PIXEL ID
+
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3561579477337173&ev=PageView&noscript=1"
+/>
+</noscript>
+<!-- ===== END META PIXEL ===== -->
+
+
 <title data-i18n="seo.title">المسوق المطحون | نبني أنظمة نمو تجارية حقيقية، مش بوستات</title>
+
 <meta name="description" content="وكالة المسوق المطحون: 26 عام خبرة في التسويق، الإعلانات، المحتوى، الأتمتة و CRM لأصحاب الأعمال في مصر والخليج." data-i18n-attr="content:seo.desc">
+
 <meta property="og:title" content="المسوق المطحون | شريكك في بناء أنظمة النمو" data-i18n-attr="content:seo.ogTitle">
+
 <meta property="og:description" content="نساعد العلامات التجارية على النمو من خلال التسويق الاستراتيجي، المحتوى الإبداعي، والإعلانات القائمة على الأداء." data-i18n-attr="content:seo.ogDesc">
+
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ar_EG">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <link rel="stylesheet" href="style.css">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -22,14 +56,19 @@
   "alternateName": "El Mat7oon Agency",
   "url": "https://el-mat7oon-agency.duckdns.org",
   "logo": "assets/logo.jpg",
-  "founder": { "@type": "Person", "name": "Dr. Mohamed Hussein" },
+  "founder": {
+    "@type": "Person",
+    "name": "Dr. Mohamed Hussein"
+  },
   "description": "وكالة تسويق متكاملة تقدم استراتيجية، محتوى، إعلانات، CRM وأتمتة تسويقية لأصحاب الأعمال في مصر والخليج.",
   "email": "zizobms2006@gmail.com",
   "telephone": "+201550069683",
   "sameAs": []
 }
 </script>
+
 </head>
+
 <body>
 
 <div class="scroll-progress" id="scrollProgress"></div>
@@ -37,234 +76,530 @@
 <!-- NAV -->
 <header class="nav" id="nav">
   <div class="nav-inner">
+
     <a href="#top" class="brand">
       <img src="assets/logo.jpg" alt="المسوق المطحون" class="brand-mark">
       <span class="brand-name" data-i18n="nav.brand">المسوق المطحون</span>
     </a>
+
     <nav class="nav-links">
       <a href="#services" data-i18n="nav.services">خدماتنا</a>
       <a href="#work" data-i18n="nav.work">آلية العمل</a>
       <a href="#proof" data-i18n="nav.proof">نتائج حقيقية</a>
       <a href="#faq" data-i18n="nav.faq">أسئلة شائعة</a>
     </nav>
+
     <div class="nav-actions">
       <button class="lang-switch" id="langSwitch" type="button">EN</button>
-      <a class="btn btn-primary btn-sm" id="navCta" href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" data-i18n="nav.cta">اطلب مكالمة</a>
+
+      <a class="btn btn-primary btn-sm"
+         id="navCta"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+         target="_blank"
+         rel="noopener"
+         data-i18n="nav.cta">
+        اطلب مكالمة
+      </a>
     </div>
-    <button class="nav-toggle" id="navToggle" aria-label="menu"><span></span><span></span><span></span></button>
+
+    <button class="nav-toggle" id="navToggle" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+
   </div>
 </header>
 
 <main id="top">
 
-  <!-- HERO (leads with founder photo + intro) -->
+  <!-- HERO -->
   <section class="hero">
+
     <div class="hero-chart" aria-hidden="true">
       <svg viewBox="0 0 1200 500" preserveAspectRatio="none">
+
         <defs>
           <linearGradient id="growthFill" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.35"/>
             <stop offset="100%" stop-color="#FF5A1F" stop-opacity="0"/>
           </linearGradient>
         </defs>
-        <path class="growth-line" d="M0,430 L90,410 L180,420 L270,360 L360,375 L450,300 L540,320 L630,230 L720,255 L810,160 L900,190 L990,95 L1080,120 L1200,40"
-              fill="none" stroke="#FF5A1F" stroke-width="3"/>
-        <path d="M0,430 L90,410 L180,420 L270,360 L360,375 L450,300 L540,320 L630,230 L720,255 L810,160 L900,190 L990,95 L1080,120 L1200,40 L1200,500 L0,500 Z"
-              fill="url(#growthFill)" stroke="none"/>
+
+        <path class="growth-line"
+          d="M0,430 L90,410 L180,420 L270,360 L360,375 L450,300 L540,320 L630,230 L720,255 L810,160 L900,190 L990,95 L1080,120 L1200,40"
+          fill="none"
+          stroke="#FF5A1F"
+          stroke-width="3"/>
+
+        <path
+          d="M0,430 L90,410 L180,420 L270,360 L360,375 L450,300 L540,320 L630,230 L720,255 L810,160 L900,190 L990,95 L1080,120 L1200,40 L1200,500 L0,500 Z"
+          fill="url(#growthFill)"
+          stroke="none"/>
+
       </svg>
     </div>
 
     <div class="hero-inner">
+
       <div class="hero-grid">
+
         <div class="hero-photo">
           <img src="assets/founder.png" alt="Dr. Mohamed Hussein">
+
           <div class="photo-tag">
             <img src="assets/logo.jpg" alt="">
             <span data-i18n="about.tagName">د. محمد حسين</span>
           </div>
         </div>
+
         <div class="hero-copy">
-          <p class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">26 عام خبرة ميدانية · مصر والخليج</span></p>
-          <h1 data-i18n="hero.title">إحنا مش هنعملك بوستات.<br>إحنا هنبني لك منظومة نمو.</h1>
-          <p class="hero-sub" data-i18n="hero.sub">د. محمد حسين، أكتر من 26 سنة خبرة، بنى المسوق المطحون كوكالة متكاملة — استراتيجيين، مصممين، كتّاب محتوى، مصورين، ومتخصصي CRM وأتمتة — عشان مشروعك ياخد فريق كامل يشتغل على نموه، مش بوستات عشوائية.</p>
+
+          <p class="eyebrow">
+            <span class="dot"></span>
+            <span data-i18n="hero.eyebrow">
+              26 عام خبرة ميدانية · مصر والخليج
+            </span>
+          </p>
+
+          <h1 data-i18n="hero.title">
+            إحنا مش هنعملك بوستات.<br>
+            إحنا هنبني لك منظومة نمو.
+          </h1>
+
+          <p class="hero-sub" data-i18n="hero.sub">
+            د. محمد حسين، أكتر من 26 سنة خبرة، بنى المسوق المطحون كوكالة متكاملة — استراتيجيين، مصممين، كتّاب محتوى، مصورين، ومتخصصي CRM وأتمتة — عشان مشروعك ياخد فريق كامل يشتغل على نموه، مش بوستات عشوائية.
+          </p>
+
           <ul class="hero-facts">
-            <li><i class="fa-solid fa-people-group"></i><span data-i18n="about.fact1">فريق متكامل خلف كل مشروع</span></li>
-            <li><i class="fa-solid fa-chart-line"></i><span data-i18n="about.fact2">قرارات مبنية على بيانات، مش تخمين</span></li>
-            <li><i class="fa-solid fa-handshake"></i><span data-i18n="about.fact3">شراكة طويلة الأمد، مش خدمة وخلاص</span></li>
+            <li>
+              <i class="fa-solid fa-people-group"></i>
+              <span data-i18n="about.fact1">فريق متكامل خلف كل مشروع</span>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-chart-line"></i>
+              <span data-i18n="about.fact2">قرارات مبنية على بيانات، مش تخمين</span>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-handshake"></i>
+              <span data-i18n="about.fact3">شراكة طويلة الأمد، مش خدمة وخلاص</span>
+            </li>
           </ul>
+
           <div class="hero-cta">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="hero.cta1">اطلب مكالمة</a>
-            <a href="#services" class="btn btn-ghost" data-i18n="hero.cta2">تعرف على خدماتنا</a>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+               target="_blank"
+               rel="noopener"
+               class="btn btn-primary"
+               data-i18n="hero.cta1">
+              اطلب مكالمة
+            </a>
+
+            <a href="#services"
+               class="btn btn-ghost"
+               data-i18n="hero.cta2">
+              تعرف على خدماتنا
+            </a>
+
           </div>
+
         </div>
       </div>
 
       <div class="hero-stats">
+
         <div class="stat">
           <span class="stat-num">26<em>+</em></span>
           <span class="stat-label" data-i18n="hero.stat1">سنة خبرة</span>
         </div>
+
         <div class="stat">
           <span class="stat-num">300<em>%</em></span>
           <span class="stat-label" data-i18n="hero.stat2">متوسط نمو العملاء</span>
         </div>
+
         <div class="stat">
           <span class="stat-num">100<em>+</em></span>
           <span class="stat-label" data-i18n="hero.stat3">مشروع منفّذ</span>
         </div>
+
         <div class="stat">
           <span class="stat-num">20<em>+</em></span>
           <span class="stat-label" data-i18n="hero.stat4">قطاع تجاري</span>
         </div>
+
       </div>
+
     </div>
   </section>
 
+
   <!-- INDUSTRIES STRIP -->
   <section class="industries">
-    <p class="industries-label" data-i18n="industries.label">شغالين مع قطاعات متنوعة:</p>
+
+    <p class="industries-label" data-i18n="industries.label">
+      شغالين مع قطاعات متنوعة:
+    </p>
+
     <div class="industries-track">
       <div class="industries-row" id="industriesRow">
         <!-- populated by JS for seamless marquee -->
       </div>
     </div>
+
   </section>
+
 
   <!-- SERVICES -->
   <section class="services" id="services">
+
     <div class="section-head">
       <p class="kicker" data-i18n="services.kicker">خدماتنا</p>
-      <h2 data-i18n="services.title">حلول دقيقة للعلامات التجارية العصرية</h2>
+
+      <h2 data-i18n="services.title">
+        حلول دقيقة للعلامات التجارية العصرية
+      </h2>
     </div>
+
     <div class="services-grid" id="servicesGrid"></div>
+
     <div class="section-cta">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
-        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
-        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+         target="_blank"
+         rel="noopener"
+         class="section-cta-link">
+
+        <span data-i18n="sectionCta.prompt">
+          جاهز تبدأ التعاون؟
+        </span>
+
+        <span class="section-cta-action">
+          <span data-i18n="sectionCta.action">اطلب مكالمة</span>
+          <i class="fa-solid fa-arrow-up-left"></i>
+        </span>
+
       </a>
+
     </div>
   </section>
+
 
   <!-- WHY + HOW WE WORK -->
   <section class="why-how" id="work">
+
     <div class="why">
-      <p class="kicker" data-i18n="why.kicker">ليه المسوق المطحون</p>
-      <h2 data-i18n="why.title">اللي بيفرقنا عن أي وكالة تانية</h2>
+
+      <p class="kicker" data-i18n="why.kicker">
+        ليه المسوق المطحون
+      </p>
+
+      <h2 data-i18n="why.title">
+        اللي بيفرقنا عن أي وكالة تانية
+      </h2>
+
       <ul class="why-list" id="whyList"></ul>
+
     </div>
+
     <div class="how">
-      <p class="kicker" data-i18n="how.kicker">آلية العمل</p>
-      <h2 data-i18n="how.title">4 خطوات بس بينا وبين النمو</h2>
+
+      <p class="kicker" data-i18n="how.kicker">
+        آلية العمل
+      </p>
+
+      <h2 data-i18n="how.title">
+        4 خطوات بس بينا وبين النمو
+      </h2>
+
       <ol class="timeline" id="timelineList"></ol>
+
     </div>
+
   </section>
+
+
   <div class="section-cta">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
-      <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
-      <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+       target="_blank"
+       rel="noopener"
+       class="section-cta-link">
+
+      <span data-i18n="sectionCta.prompt">
+        جاهز تبدأ التعاون؟
+      </span>
+
+      <span class="section-cta-action">
+        <span data-i18n="sectionCta.action">اطلب مكالمة</span>
+        <i class="fa-solid fa-arrow-up-left"></i>
+      </span>
+
     </a>
+
   </div>
+
 
   <!-- PARTNERS -->
   <section class="partners">
-    <p class="section-eyebrow" data-i18n="partners.eyebrow">شركاء النجاح</p>
+
+    <p class="section-eyebrow" data-i18n="partners.eyebrow">
+      شركاء النجاح
+    </p>
+
     <div class="partners-row" id="partnersRow"></div>
+
     <div class="section-cta">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
-        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
-        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+         target="_blank"
+         rel="noopener"
+         class="section-cta-link">
+
+        <span data-i18n="sectionCta.prompt">
+          جاهز تبدأ التعاون؟
+        </span>
+
+        <span class="section-cta-action">
+          <span data-i18n="sectionCta.action">اطلب مكالمة</span>
+          <i class="fa-solid fa-arrow-up-left"></i>
+        </span>
+
       </a>
+
     </div>
+
   </section>
+
 
   <!-- PROOF / CASE STUDIES -->
   <section class="proof" id="proof">
+
     <div class="section-head">
-      <p class="kicker" data-i18n="proof.kicker">نتائج حقيقية</p>
-      <h2 data-i18n="proof.title">أرقام حصلت فعلاً، مش وعود</h2>
+
+      <p class="kicker" data-i18n="proof.kicker">
+        نتائج حقيقية
+      </p>
+
+      <h2 data-i18n="proof.title">
+        أرقام حصلت فعلاً، مش وعود
+      </h2>
+
     </div>
+
     <div class="proof-grid" id="proofGrid"></div>
+
     <div class="section-cta">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
-        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
-        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+         target="_blank"
+         rel="noopener"
+         class="section-cta-link">
+
+        <span data-i18n="sectionCta.prompt">
+          جاهز تبدأ التعاون؟
+        </span>
+
+        <span class="section-cta-action">
+          <span data-i18n="sectionCta.action">اطلب مكالمة</span>
+          <i class="fa-solid fa-arrow-up-left"></i>
+        </span>
+
       </a>
+
     </div>
+
   </section>
+
 
   <!-- FAQ -->
   <section class="faq" id="faq">
+
     <div class="section-head">
-      <p class="kicker" data-i18n="faq.kicker">أسئلة شائعة</p>
-      <h2 data-i18n="faq.title">أسئلة بتتكرر معانا كتير</h2>
+
+      <p class="kicker" data-i18n="faq.kicker">
+        أسئلة شائعة
+      </p>
+
+      <h2 data-i18n="faq.title">
+        أسئلة بتتكرر معانا كتير
+      </h2>
+
     </div>
+
     <div class="faq-list" id="faqList"></div>
+
     <div class="section-cta">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="section-cta-link">
-        <span data-i18n="sectionCta.prompt">جاهز تبدأ التعاون؟</span>
-        <span class="section-cta-action"><span data-i18n="sectionCta.action">اطلب مكالمة</span><i class="fa-solid fa-arrow-up-left"></i></span>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+         target="_blank"
+         rel="noopener"
+         class="section-cta-link">
+
+        <span data-i18n="sectionCta.prompt">
+          جاهز تبدأ التعاون؟
+        </span>
+
+        <span class="section-cta-action">
+          <span data-i18n="sectionCta.action">اطلب مكالمة</span>
+          <i class="fa-solid fa-arrow-up-left"></i>
+        </span>
+
       </a>
+
     </div>
+
   </section>
+
 
   <!-- FINAL CTA / CONTACT -->
   <section class="final-cta" id="contact">
+
     <div class="cta-card">
-      <p class="kicker" data-i18n="cta.kicker">لنبدأ نتعاون</p>
-      <h2 data-i18n="cta.title">جاهز تبدأ تعاون حقيقي يكبّر بيزنسك؟</h2>
-      <p data-i18n="cta.sub">احجز مكالمة، وهنرجعلك بخطة واضحة مش كلام عام.</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+
+      <p class="kicker" data-i18n="cta.kicker">
+        لنبدأ نتعاون
+      </p>
+
+      <h2 data-i18n="cta.title">
+        جاهز تبدأ تعاون حقيقي يكبّر بيزنسك؟
+      </h2>
+
+      <p data-i18n="cta.sub">
+        احجز مكالمة، وهنرجعلك بخطة واضحة مش كلام عام.
+      </p>
+
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+         target="_blank"
+         rel="noopener"
+         class="btn btn-primary btn-lg">
+
         <span data-i18n="cta.btn">اطلب مكالمة</span>
+
         <i class="fa-solid fa-arrow-up-left"></i>
+
       </a>
-      <p class="cta-note" data-i18n="cta.note">هيستغرق تعبئة النموذج أقل من 3 دقائق، وبعد مراجعة طلبك هيتواصل معاك أحد أعضاء فريقنا.</p>
+
+      <p class="cta-note" data-i18n="cta.note">
+        هيستغرق تعبئة النموذج أقل من 3 دقائق، وبعد مراجعة طلبك هيتواصل معاك أحد أعضاء فريقنا.
+      </p>
 
       <div class="contact-direct">
-        <a href="mailto:zizobms2006@gmail.com"><i class="fa-solid fa-envelope"></i> zizobms2006@gmail.com</a>
-        <a href="tel:+201550069683"><i class="fa-solid fa-phone"></i> 01550069683</a>
+
+        <a href="mailto:zizobms2006@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          zizobms2006@gmail.com
+        </a>
+
+        <a href="tel:+201550069683">
+          <i class="fa-solid fa-phone"></i>
+          01550069683
+        </a>
+
       </div>
+
     </div>
+
   </section>
 
 </main>
 
+
 <footer class="footer">
+
   <img src="assets/logo.jpg" alt="" class="footer-mark">
-  <p data-i18n="footer.text">© 2026 المسوق المطحون. جميع الحقوق محفوظة.</p>
+
+  <p data-i18n="footer.text">
+    © 2026 المسوق المطحون. جميع الحقوق محفوظة.
+  </p>
+
   <div class="footer-social">
-    <a href="https://www.facebook.com/profile.php?id=61576923941440" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-    <a href="https://www.instagram.com/elmosaweq_elmat7oun/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-    <a href="https://www.tiktok.com/@elmosauq_elmat7oun" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+
+    <a href="https://www.facebook.com/profile.php?id=61576923941440"
+       target="_blank"
+       rel="noopener"
+       aria-label="Facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="https://www.instagram.com/elmosaweq_elmat7oun/"
+       target="_blank"
+       rel="noopener"
+       aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/@elmosauq_elmat7oun"
+       target="_blank"
+       rel="noopener"
+       aria-label="TikTok">
+      <i class="fa-brands fa-tiktok"></i>
+    </a>
+
   </div>
+
 </footer>
 
+
 <!-- Floating WhatsApp -->
-<a href="https://wa.me/201550069683" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp">
+<a href="https://wa.me/201550069683"
+   target="_blank"
+   rel="noopener"
+   class="whatsapp-float"
+   aria-label="WhatsApp">
+
   <i class="fa-brands fa-whatsapp"></i>
+
 </a>
+
 
 <!-- Sticky mobile CTA -->
 <div class="sticky-mobile-cta">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform" target="_blank" rel="noopener" data-i18n="sticky.cta">اطلب مكالمة</a>
+
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSchNZTHshzLrokQS8Aa7kIzdK0PIQZ-85QSWHslhfWkhrLWig/viewform"
+     target="_blank"
+     rel="noopener"
+     data-i18n="sticky.cta">
+    اطلب مكالمة
+  </a>
+
 </div>
 
+
 <!-- Back to top -->
-<button class="back-top" id="backTop" aria-label="back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<button class="back-top" id="backTop" aria-label="back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
 
 <script src="script.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
-  <script type="module">
-    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
-    createChat({
-      webhookUrl: 'https://vmi3330209.contaboserver.net/webhook/3d57087d-9ab2-47fe-a492-d50ced226b97/chat',
-      mode: 'window',
-      showWelcomeScreen: false,
-      defaultLanguage: 'en',
-      initialMessages: [
-        'أهلاً بيك! عامل إيه؟ 😊'
-      ],
-    });
-  </script>
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+
+<script type="module">
+
+import { createChat }
+from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+createChat({
+
+  webhookUrl:
+  'https://vmi3330209.contaboserver.net/webhook/3d57087d-9ab2-47fe-a492-d50ced226b97/chat',
+
+  mode: 'window',
+
+  showWelcomeScreen: false,
+
+  defaultLanguage: 'en',
+
+  initialMessages: [
+    'أهلاً بيك! عامل إيه؟ 😊'
+  ],
+
+});
+
+</script>
+
 </body>
 </html>
